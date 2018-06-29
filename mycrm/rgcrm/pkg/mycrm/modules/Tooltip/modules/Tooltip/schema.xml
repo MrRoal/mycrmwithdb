@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>mycrm_quickview</name>
+			<sql><![CDATA[CREATE TABLE `mycrm_quickview` (
+  				`fieldid` int(19) NOT NULL,
+  				`related_fieldid` int(19) NOT NULL,
+  				`sequence` int(19) NOT NULL,
+  				`view` int(19) NOT NULL,
+  				CONSTRAINT fk_1_mycrm_quickview FOREIGN KEY (`fieldid`) REFERENCES `mycrm_field` (`fieldid`) ON DELETE CASCADE
+			)]]></sql>
+		</table>
+	</tables>
+</schema>

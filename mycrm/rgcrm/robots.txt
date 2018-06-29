@@ -1,0 +1,9 @@
+# ------------------------------------------
+# mycrm CRM . -- http://www.mycrm.com
+# Robot Exclusion File -- robots.txt
+# Author:  mycrm CRM
+# Last Updated:  17/11/06 
+# ------------------------------------------
+
+User-agent: *
+Disallow: /

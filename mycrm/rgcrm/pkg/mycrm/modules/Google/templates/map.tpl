@@ -1,0 +1,20 @@
+{*<!--
+/*********************************************************************************
+  ** The contents of this file are subject to the mycrm CRM Public License Version 1.0
+   * ("License"); You may not use this file except in compliance with the License
+   * The Original Code is:  mycrm CRM Open Source
+   * The Initial Developer of the Original Code is mycrm.
+   * Portions created by mycrm are Copyright (C) mycrm.
+   * All Rights Reserved.
+  *
+ ********************************************************************************/
+-->*}
+<script type="text/javascript" src="layouts/vlayout/modules/Google/resources/map.js"></script>
+
+<span id="map_record" class="hide">{$RECORD}</span>
+<span id="map_module" class="hide">{$SOURCE_MODULE}</span>
+<div id="map_canvas">
+    <span id="map_address" class="hide"></span>
+    <img id="map_link" class="pull-right icon-share cursorPointer"></img>
+</div>
+
